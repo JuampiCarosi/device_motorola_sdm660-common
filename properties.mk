@@ -133,7 +133,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=sdm660 \
     vendor.display.disable_rotator_downscale=1 \
-    vendor.display.disable_scaler=1
+    vendor.display.disable_scaler=1 \
+    debug.cpurend.vsync=false \
+    debug.performance.tuning=1 \
+    debug.sf.recomputecrop=0
 
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
